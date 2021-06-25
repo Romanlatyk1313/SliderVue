@@ -1,0 +1,76 @@
+#app {
+  background: #fff;
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+.button-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: #252525;
+  transition-duration: 1s;
+  z-index: 5;
+}
+.button-add:hover {
+  background-color: #464646;
+}
+
+.button-add:checked {
+  background-color: #111111;
+  transition-duration: 1s;
+}
+.wrapper-button-add {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+.input-newImg {
+  height: 40px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+.button-newImg-block {
+  position: relative;
+}
+.pages {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  align-items: center;
+  margin: 0 auto;
+}
+.button-id-post {
+  background-color: #fff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.count-id-post {
+  color: #252525;
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,123 @@
+.swiper-button-next {
+}
+
+.swiper-pagination,
+.swiper-pagination-fraction {
+  display: block;
+  position: absolute;
+  top: 800px;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  color: #000;
+  z-index: 200;
+}
+
+.hover-delete {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 30%;
+  background-color: #000;
+  opacity: 0;
+  bottom: 0;
+  transition-duration: 0.9s;
+}
+.hover-delete:hover {
+  opacity: 0.5;
+}
+.hover-delete::after {
+  content: url(../assets/arrows/delete5.png);
+  height: 35px;
+  width: 45px;
+  display: block;
+  position: relative;
+  margin-left: 95px;
+  margin-top: 2px;
+}
+.hover-delete-button {
+  display: block;
+  position: absolute;
+  z-index: 200;
+  margin-left: 120px;
+  margin-top: 5px;
+  opacity: 0;
+}
+
+.wrapper {
+  width: 1452px;
+  height: 900px;
+  margin: 20px auto 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.my-swiper2 {
+  height: 726px;
+  width: 100%;
+}
+
+.my-swiper {
+  height: 140px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.my-swiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.my-swiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
